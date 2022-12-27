@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #448aff;
+  font-family: "Roboto", sans-serif;
+}
+/* --------------------desktop */
+.container-fluid {
+  margin: 50px auto;
+  max-width: 400px;
+  width: 100%;
+}
+.inputs {
+  background: white;
+  margin-bottom: 50px;
+  padding: 2rem 25px;
+  text-align: center;
+  width: 100%;
+}
+.inputs input[type="text"] {
+  border: 2px solid #c2c2c2;
+  background-color: white;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  height: 3.5rem;
+  padding: 10px;
+  width: 100%;
+}
+.inputs input[type="submit"] {
+  background: #0548b5;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  height: 3.2rem;
+  margin-top: 20px;
+  width: 6.5rem;
+}
+.display h2 {
+  background: #0548b5;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  height: 36px;
+  padding: 5px 0;
+  text-align: center;
+}
+.display h2 span {
+  color: #9beefb;
+  font-size: inherit;
+}
+.display .wrapper {
+  background: white;
+  padding: 2rem 25px;
+  text-align: center;
+  width: 100%;
+}
+.display .wrapper p {
+  color: #04214c;
+  font-size: 23px;
+  font-weight: 400;
+  margin: 20px 0;
+  text-align: left;
+  width: 100%;
+}
+.display .wrapper p span {
+  color: #9beefb;
+  font-size: inherit;
+  font-weight: 700;
+}
+
+/* -------------------------------tablet */
+
+@media screen and (max-width: 1024px) {
+  .container-fluid {
+    padding: 0 50px;
+  }
+  .inputs input[type="submit"] {
+    width: 100%;
+  }
+}
+
+/* -------------------------------mobile */
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    padding: 0 25px;
+  }
+}
